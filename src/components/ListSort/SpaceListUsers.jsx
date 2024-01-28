@@ -1,7 +1,7 @@
 import Table from "./Table";
 import Button from "./ButtonTable";
 import { useState } from "react";
-import { usersArray } from "./listUsers";
+import { usersArray } from "../listUsers";
 
 export default function ListUsers(){
     const [sortUser, setSortUser] = useState();

@@ -1,4 +1,4 @@
-import { usersArray } from "./listUsers";
+import { usersArray } from "../listUsers";
 //строит таблицу с заговолками и данными пользователей
 export default function Table(){
     // получим заголовки таблицы

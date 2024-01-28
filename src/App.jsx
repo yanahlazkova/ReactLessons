@@ -2,8 +2,8 @@ import { useState } from "react";
 import "../src/App.css";
 import "../src/css/styles.css";
 import reactLogo from "./assets/react.svg";
-import PlusMinus from "./components/plusminus";
-import ListUsers from "./components/spaceListUsers";
+import ListUsers from "./components/ListSort/SpaceListUsers";
+import PlusMinus from "./components/PlusMinus/plusminus";
 import viteLogo from "/vite.svg";
 
 function App() {
