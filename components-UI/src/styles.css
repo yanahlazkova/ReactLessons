@@ -1,0 +1,28 @@
+.container {
+    padding: 0 1em;
+    background-color:beige;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        margin: 0 auto;
+        padding: 0 1rem;
+        max-width: 85%;
+    }
+}
+.wide-width {
+    max-width: 90%;
+}
+
+.normal-width {
+    max-width: 80%;
+}
+
+.narrow-width {
+    max-width: 70%;
+}
+
+.full-width {
+    max-width: 100%;
+}
